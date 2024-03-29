@@ -9,16 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.0.17",
+    "@stylexjs/stylex": "^0.5.1",
+    "next": "14.1.4",
+    "open-props": "^2.0.0-beta.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@stylexjs/babel-plugin": "^0.5.1",
+    "@stylexjs/eslint-plugin": "^0.5.1",
+    "@stylexjs/nextjs-plugin": "^0.5.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "eslint-config-next": "14.1.4",
+    "typescript": "^5"
   }
 }
