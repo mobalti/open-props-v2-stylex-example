@@ -95,7 +95,7 @@ export default function Home() {
 
 const MD_N_ABOVE = '@media (width >= 768px)';
 const LG_ONLY = '@media (768px <= width < 1024px)';
-const LG_N_Below = '@media (width < 1024px)';
+const LG_N_BELOW = '@media (width < 1024px)';
 const LG_N_ABOVE = '@media (width >= 1024px)';
 
 const style = stylex.create({
@@ -160,7 +160,7 @@ const style = stylex.create({
     containerType: 'size',
     inlineSize: '100%',
     blockSize: {
-      [LG_N_Below]: 218,
+      [LG_N_BELOW]: 218,
     },
   },
   mainCardImage: {
